@@ -1,8 +1,10 @@
 ##### https://github.com/jutanke/implicit_carving/blob/master/implicit_carving/points.py
+from typing import Optional
+
+import pytorch3d.renderer.points.pulsar as pulsar
 import torch
 import torch.nn as nn
-import pytorch3d.renderer.points.pulsar as pulsar
-from typing import Optional
+
 
 # CUDA_LAUNCH_BLOCKING=1
 class PulsarLayer(nn.Module):
@@ -102,7 +104,7 @@ class PulsarLayer(nn.Module):
             bg_col=self.bg_color,
             opacity=opacity,
         )
-        
+
         img = torch.flip(img, [1])
         # print(img.shape)
         return img
