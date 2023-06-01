@@ -4,6 +4,7 @@ import torch.nn as nn
 import pytorch3d.renderer.points.pulsar as pulsar
 from typing import Optional
 
+
 # CUDA_LAUNCH_BLOCKING=1
 class PulsarLayer(nn.Module):
     def __init__(
@@ -102,7 +103,7 @@ class PulsarLayer(nn.Module):
             bg_col=self.bg_color,
             opacity=opacity,
         )
-        
+
         img = torch.flip(img, [1])
         # print(img.shape)
         return img
