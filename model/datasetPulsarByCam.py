@@ -2,34 +2,32 @@ import sys
 
 sys.path.insert(0, "")
 import os
-from os.path import join, isdir, isfile
+from os.path import isdir, isfile, join
+from typing import List
+
 import cv2
+import imageio
 import numpy as np
 import torch
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader, ConcatDataset
-from torchvision import transforms
-from PIL import ImageOps
-
-
-from tqdm import tqdm
 import trimesh
-import imageio
-
-from nara.rasterizing import rasterizing
 from nara.camera import Camera
+from nara.rasterizing import rasterizing
+from PIL import ImageOps
+from torch.utils.data import ConcatDataset, DataLoader, Dataset
+from torchvision import transforms
+from tqdm import tqdm
 
 from camera_pulsar import MyCamera
+from utilities.FourierFeature import input_mapping_torch
+from utilities.impCarv_points import PulsarLayer
+from utilities.nara_processing_surface_new import TextureProjector3d
 
 # from nara_processing_surface_new import TextureProjector3d
 # from impCarv_points import PulsarLayer
 # from FourierFeature import input_mapping
 
-from utilities.nara_processing_surface_new import TextureProjector3d
-from utilities.impCarv_points import PulsarLayer
-from utilities.FourierFeature import input_mapping_torch
 
-from typing import List
 
 pid_dict = {
     0: "313",

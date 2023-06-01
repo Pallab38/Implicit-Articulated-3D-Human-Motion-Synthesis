@@ -5,14 +5,13 @@ PULSAR
 
 import imp
 import os
-import cv2
-import numpy as np
 from os.path import join
-import torch
 
-
-import trimesh
+import cv2
 import imageio
+import numpy as np
+import torch
+import trimesh
 
 # from impCarv_points import PulsarLayer
 from utilities.impCarv_points import PulsarLayer
