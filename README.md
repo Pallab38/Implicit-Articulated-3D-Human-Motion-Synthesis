@@ -11,8 +11,8 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 <a id="Nerf">[nerf]</a>
 Mildenhall, Ben and Srinivasan, Pratul P and Tancik, Matthew and Barron, Jonathan T and Ramamoorthi, Ravi and Ng, Ren (2021).
 Nerf: Representing scenes as neural radiance fields for view synthesis.
-Communications of the ACM.
+Communications of the ACM.<br>
 <a id="SMPL">[smpl]</a>
 Loper, Matthew and Mahmood, Naureen and Romero, Javier and Pons-Moll, Gerard and Black, Michael J (2015).
 SMPL: A skinned multi-person linear model.
-ACM transactions on graphics (TOG).
+ACM transactions on graphics (TOG).<br>
