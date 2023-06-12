@@ -7,7 +7,8 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 1. [Full Model (MEGA Link)](https://mega.nz/fm/ouIghJ4I)
 2. [Latent Model(MEGA Link) ](https://mega.nz/fm/Q3JwDZRY)
 
-
+## Results: Novel View Synthesis
+![Subject: 313](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nvs/313_nvs_20fps.gif)
 
 ## REFERENCE
 <a id="Nerf">[1]</a>
