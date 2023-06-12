@@ -10,14 +10,14 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 ## Results: Novel View Synthesis
 ### Subject: 313 (Arms Swing)
 ![Subject: 313](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nvs/313_nvs_20fps.gif)
-### Subject: 377 ()
+### Subject: 377 (Twirling)
 ![Subject: 377](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nvs/377_nvs_20fps.gif)
 
-### Subject: 386 ()
+### Subject: 386 (Punching)
 ![Subject: 386](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nvs/386_nvs_20fps.gif)
 
 
-## REFERENCE
+## REFERENCES
 <a id="Nerf">[1]</a>
 Mildenhall, Ben and Srinivasan, Pratul P and Tancik, Matthew and Barron, Jonathan T and Ramamoorthi, Ravi and Ng, Ren (2021).
 Nerf: Representing scenes as neural radiance fields for view synthesis.
