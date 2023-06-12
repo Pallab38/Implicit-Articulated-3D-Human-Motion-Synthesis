@@ -11,6 +11,12 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 
 ### Implicit Body Representation:
 
+#### Density Network: 
+
+#### Painter Network: 
+
+#### Position Encoding: 
+
 ### Differentiable Rendering: 
 
 
