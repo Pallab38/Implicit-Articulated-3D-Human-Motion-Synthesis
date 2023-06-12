@@ -16,6 +16,15 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 ### Subject: 386 (Punching)
 ![Subject: 386](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nvs/386_nvs_20fps.gif)
 
+## Results: Novel Pose Synthesis
+### Subject: 313 (Arms Swing)
+![Subject: 313](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nps/313_20fps.gif)
+### Subject: 377 (Twirling)
+![Subject: 377](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nps/377_20fps.gif)
+
+### Subject: 386 (Punching)
+![Subject: 386](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/nps/386_20fps.gif)
+
 
 ## REFERENCES
 <a id="Nerf">[1]</a>
