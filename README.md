@@ -5,6 +5,15 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 ## Method
 ![overview](https://github.com/Pallab38/Implicit-Articulated-3D-Human-Motion-Synthesis/blob/main/resources/overview.png)
 
+### Sample Points:
+
+### Latent Codes: 
+
+### Implicit Body Representation:
+
+### Differentiable Rendering: 
+
+
 ## Trained Model 
 1. [Full Model (MEGA Link)](https://mega.nz/fm/ouIghJ4I)
 2. [Latent Model(MEGA Link) ](https://mega.nz/fm/Q3JwDZRY)
