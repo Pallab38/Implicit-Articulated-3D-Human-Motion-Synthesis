@@ -32,7 +32,7 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 
 
 ## REFERENCES
-<a id="Nerf">[1]</a>
+<a id="NeRF">[1]</a>
 Mildenhall, Ben and Srinivasan, Pratul P and Tancik, Matthew and Barron, Jonathan T and Ramamoorthi, Ravi and Ng, Ren (2021).
 Nerf: Representing scenes as neural radiance fields for view synthesis.
 Communications of the ACM.<br>
