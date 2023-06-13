@@ -7,7 +7,7 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 
 Given sampled 3D points of the human body surface along with latent codes as input, our method first regresses density and color to encode geometry and appearance of the human using two separate neural networks: density and painter network. This step represents the human body as a continuous neural implicit function. Then, the neural body scene representation is rendered by a sphere-based renderer Pulsar. Finally, a fully convolutional network is used as the neural shader module  to obtain the final RGB image and the predicted mask.
 
-### Sample Points:
+### Sampling 3D Points:
 
 ### Latent Codes: 
 
