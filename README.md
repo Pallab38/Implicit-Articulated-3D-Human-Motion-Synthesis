@@ -21,7 +21,7 @@ The density network computes the density of a given 3D coordinate.
 #### 2. Painter Network: 
 The painter network models the color at any location as a function of that 3D coordinate, normalized view direction, and latent codes.
 #### Positional Encoding: 
-
+Gaussian Fourier feature mapping [[5]](#5) to encode 3D points and normalized view-direction to a higher-dimensional space.
 ### Differentiable Rendering: 
 
 
@@ -69,4 +69,9 @@ Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognitio
 <a id="4"> [4] </a> Osada, Robert and Funkhouser, Thomas and Chazelle, Bernard and Dobkin, David (2002). <br>
 Shape distributions. <br>
 ACM Transactions on Graphics (TOG). <br>
+<a id="5"> [5] </a>  
+Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and Fridovich-Keil, Sara and Raghavan, Nithin and Singhal, Utkarsh and Ramamoorthi, Ravi and Barron, Jonathan and Ng, Ren <br>
+Fourier features let networks learn high frequency functions in low dimensional domains. <br>
+Advances in Neural Information Processing Systems.
+
 
