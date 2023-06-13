@@ -11,15 +11,15 @@ Given sampled 3D points of the human body surface along with latent codes as inp
 Random 3D points are sampled from the surface of the SMPL[[2]](#2) body mesh following the approach of Osada _et al._ [[4]](#4). 
 
 ### Latent Codes: 
-(i) Shape latent codes to represent the size and shape of an individual person.
+(i) Shape latent codes to represent the size and shape of an individual person. <br>
 (ii) Latent textures embed visual attributes of the person such as color, texture, etc.
 
 ### Implicit Body Representation:
-
-#### Density Network: 
-
-#### Painter Network: 
-
+The implicit scene representation is defined by a continuous function over the 3D space. To represent the human body in an implicit way, following neurla networks are implemented:
+#### 1. Density Network: 
+The density network computes the density of a given 3D coordinate.
+#### 2. Painter Network: 
+The painter network models the color at any location as a function of that 3D coordinate, normalized view direction, and latent codes.
 #### Positional Encoding: 
 
 ### Differentiable Rendering: 
