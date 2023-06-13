@@ -74,4 +74,7 @@ Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and Fridovich-Keil, S
 Fourier features let networks learn high frequency functions in low dimensional domains. <br>
 Advances in Neural Information Processing Systems.
 
-
+<a id="6"> [6]</a>
+Lassner, Christoph and Zollhofer, Michael <br>
+Pulsar: Efficient sphere-based neural rendering <br>
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
