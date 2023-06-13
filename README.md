@@ -24,7 +24,12 @@ The painter network models the color at any location as a function of that 3D co
 Gaussian Fourier feature mapping [[5]](#5) to encode 3D points and normalized view-direction to a higher-dimensional space.
 ### Differentiable Rendering: 
 Utilized PULSAR [[6]](#6) as the rendering module and U-Net as the neural shading module.  
-
+## Training 
+1. (Pre-training) latent codes: single frame, all (21) cameras. Each person has single set of latent codes. 
+2. All frames 11 cameras for training, remaining for testing.
+3. For Pulsar: Number of spheres=300K, sphere radius=0.01, opacity=Output of the density network.
+4. Loss Functions: L1 for images and Binary Cross Entropy for masks.
+5. Optimization: Adam optimizer with 0.001.
 ## Trained Model 
 1. [Full Model (MEGA Link)](https://mega.nz/fm/ouIghJ4I)
 2. [Latent Model(MEGA Link) ](https://mega.nz/fm/Q3JwDZRY)
