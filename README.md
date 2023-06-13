@@ -11,6 +11,8 @@ Given sampled 3D points of the human body surface along with latent codes as inp
 Random 3D points are sampled from the surface of the SMPL[[2]](#2) body mesh following the approach of Osada _et al._ [[4]](#4). 
 
 ### Latent Codes: 
+(i) Shape latent codes to represent the size and shape of an individual person.
+(ii) Latent textures embed visual attributes of the person such as color, texture, etc.
 
 ### Implicit Body Representation:
 
