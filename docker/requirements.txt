@@ -1,0 +1,18 @@
+einops
+git+https://github.com/jutanke/junn.git
+git+https://github.com/jutanke/naive_rasterizer.git
+imageio
+matplotlib
+numba
+numpy
+opencv-python
+pandas
+pillow
+plotly
+pyglet
+pyrender
+# pytorch-lightning==1.7.2
+Rtree
+scikit-image
+trimesh
+tqdm

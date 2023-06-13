@@ -1,0 +1,34 @@
+# add Dockerfile RUN's that are executed before the user is set
+RUN echo "pre-user hook"
+
+RUN apt-get install -y build-essential
+
+### CUDA: 11.3, PyTorch: 1.12.1 
+RUN conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
+RUN conda install -y -c conda-forge pytorch-lightning=1.7.2
+RUN conda install -y -c conda-forge fvcore
+RUN conda install -y -c conda-forge yacs
+RUN conda install -y -c iopath iopath
+RUN conda install -y -c bottler nvidiacub
+
+#### pytorch3d for python 3.8,cuda 11.3, pytorch 1.11.0
+# RUN pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu113_pyt1110/download.html
+
+### pytorch3d for python 3.8, CUDA: 11.3, PyTorch: 1.12.1 
+RUN conda install -y pytorch3d -c pytorch3d
+
+# RUN conda install https://anaconda.org/pytorch3d/pytorch3d/0.7.0/download/linux-64/pytorch3d-0.7.0-py38_cu113_pyt1110.tar.bz2
+COPY requirements.txt /tmp/
+RUN pip install --requirement /tmp/requirements.txt
+
+
+### jax==0.3.21    jaxlib==0.3.20
+RUN pip install jax jaxlib
+
+
+
+
+RUN pip install detectron2 -f  https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
+
+Run pip install tensorboard
