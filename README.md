@@ -23,7 +23,7 @@ The painter network models the color at any location as a function of that 3D co
 #### Positional Encoding: 
 Gaussian Fourier feature mapping [[5]](#5) to encode 3D points and normalized view-direction to a higher-dimensional space.
 ### Differentiable Rendering: 
-
+Utilized PULSAR [[6]](#6) as the rendering module and U-Net as the neural shading module.  
 
 ## Trained Model 
 1. [Full Model (MEGA Link)](https://mega.nz/fm/ouIghJ4I)
