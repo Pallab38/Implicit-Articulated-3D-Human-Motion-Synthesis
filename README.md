@@ -70,11 +70,11 @@ Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognitio
 Shape distributions. <br>
 ACM Transactions on Graphics (TOG). <br>
 <a id="5"> [5] </a>  
-Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and Fridovich-Keil, Sara and Raghavan, Nithin and Singhal, Utkarsh and Ramamoorthi, Ravi and Barron, Jonathan and Ng, Ren. <br>
+Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and Fridovich-Keil, Sara and Raghavan, Nithin and Singhal, Utkarsh and Ramamoorthi, Ravi and Barron, Jonathan and Ng, Ren (2020). <br>
 Fourier features let networks learn high frequency functions in low dimensional domains. <br>
 Advances in Neural Information Processing Systems.
 
 <a id="6"> [6]</a>
-Lassner, Christoph and Zollhofer, Michael. <br>
+Lassner, Christoph and Zollhofer, Michael (2021). <br>
 Pulsar: Efficient sphere-based neural rendering. <br>
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.
