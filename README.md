@@ -17,7 +17,7 @@ Given sampled 3D points of the human body surface along with latent codes as inp
 
 #### Painter Network: 
 
-#### Position Encoding: 
+#### Positional Encoding: 
 
 ### Differentiable Rendering: 
 
