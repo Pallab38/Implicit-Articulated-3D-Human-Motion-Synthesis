@@ -49,17 +49,17 @@ Given sampled 3D points of the human body surface along with latent codes as inp
 
 
 ## REFERENCES
-<a id="NeRF">[1]</a>
+<a id="NeRF">[#1]</a>
 Mildenhall, Ben and Srinivasan, Pratul P and Tancik, Matthew and Barron, Jonathan T and Ramamoorthi, Ravi and Ng, Ren (2021).
 Nerf: Representing scenes as neural radiance fields for view synthesis.
 Communications of the ACM.<br>
 
-<a id="SMPL">[2]</a>
+<a id="SMPL">[#2]</a>
 Loper, Matthew and Mahmood, Naureen and Romero, Javier and Pons-Moll, Gerard and Black, Michael J (2015).
 SMPL: A skinned multi-person linear model.
 ACM transactions on graphics (TOG).<br>
 
-<a id ="ZJUMocap"> [3]</a>
+<a id ="ZJUMocap"> [#3]</a>
 Peng, Sida and Zhang, Yuanqing and Xu, Yinghao and Wang, Qianqian and Shuai, Qing and Bao, Hujun and Zhou, Xiaowei (2021). 
 Neural body: Implicit neural representations with structured latent codes for novel view synthesis of dynamic humans.
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. <br>
