@@ -35,7 +35,10 @@ Utilized PULSAR [[6]](#6) as the rendering module and U-Net as the neural shadin
 2. [Latent Model(MEGA Link) ](https://mega.nz/fm/Q3JwDZRY)
 
 ## DATASET 
-* [ZJU-MoCap Dataset](https://github.com/zju3dv/EasyMocap#zju-mocap). Three subjects are chosen: (i) 313 (Arms Swing), (ii) 377 (Twirling), and (iii) 386 (Punching).
+* [ZJU-MoCap Dataset](https://github.com/zju3dv/EasyMocap#zju-mocap). Three subjects are chosen: 
+1. 313 (Arms Swing), 
+2. 377 (Twirling), and 
+3. 386 (Punching).
 
 ## Results: Novel View Synthesis
 ### Subject: 313 (Arms Swing)
