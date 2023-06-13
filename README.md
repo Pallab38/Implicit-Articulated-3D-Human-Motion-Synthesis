@@ -7,7 +7,8 @@ In this thesis, we address the problem of synthesizing human motion from sparse 
 
 Given sampled 3D points of the human body surface along with latent codes as input, our method first regresses density and color to encode geometry and appearance of the human using two separate neural networks: density and painter network. This step represents the human body as a continuous neural implicit function. Then, the neural body scene representation is rendered by a sphere-based renderer Pulsar. Finally, a fully convolutional network is used as the neural shader module  to obtain the final RGB image and the predicted mask.
 
-### Sampling 3D Points:
+### Sampling 3D Points: 
+Random 3D points are sampled from the surface of the SMPL[[2]](#2) body mesh following the approach of Osada _et al._ [[4]](#4). 
 
 ### Latent Codes: 
 
@@ -63,3 +64,7 @@ ACM transactions on graphics (TOG).<br>
 Peng, Sida and Zhang, Yuanqing and Xu, Yinghao and Wang, Qianqian and Shuai, Qing and Bao, Hujun and Zhou, Xiaowei (2021). 
 Neural body: Implicit neural representations with structured latent codes for novel view synthesis of dynamic humans.
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. <br>
+<a id="4"> [4] </a> Osada, Robert and Funkhouser, Thomas and Chazelle, Bernard and Dobkin, David (2002). <br>
+Shape distributions. <br>
+ACM Transactions on Graphics (TOG). <br>
+
